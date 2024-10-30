@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+h2:contains('Checkout Profiler Settings') {
+    color: rgb(24, 24, 113);
+}

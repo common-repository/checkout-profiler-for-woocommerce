@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "CON\\CheckoutProfiler\\": "/",
+            "CON\\CheckoutProfiler\\Models\\": "models",
+            "CON\\CheckoutProfiler\\Views\\": "views",
+            "CON\\CheckoutProfiler\\Views\\Public\\": "views/public",
+            "CON\\CheckoutProfiler\\Views\\Admin\\": "views/admin",
+            "CON\\CheckoutProfiler\\Controllers\\": "controllers",
+            "CON\\CheckoutProfiler\\Controllers\\App\\": "controllers/app"
+        }
+    },
+    "dev-require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}

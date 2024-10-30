@@ -1,0 +1,113 @@
+# Copyright (C) 2024 conschneider
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout Profiler for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/checkout-profiler-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-06T16:24:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: chprfwlang\n"
+
+#. Plugin Name of the plugin
+msgid "Checkout Profiler for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/checkout-profiler-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin tells you how fast your WooCommerce checkout is."
+msgstr ""
+
+#. Author of the plugin
+msgid "conschneider"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://conschneider.de"
+msgstr ""
+
+#: checkout-profiler-for-woocommerce.php:25
+msgid "Settings"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:21
+msgid "Profiler"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:47
+msgid "Checkout Profiler Settings"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:53
+msgid "WooCommerce Blocks Checkout"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:55
+msgid "WooCommerce Blocks Checkout is automatically detected and uses Javascript Event Listeners, not hooks.<br>You can disregard the below settings. It does not matter what is set."
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:59
+msgid "Start Hook"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:61
+msgid "Select the hook to start with or enter a custom one."
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:65
+#: controllers/CheckoutProfilerSettings.php:90
+msgid "Custom (Enter below)"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:72
+msgid "Custom Start Hook"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:74
+#: controllers/CheckoutProfilerSettings.php:99
+msgid "Enter the custom hook name."
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:82
+msgid "End Hook"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:84
+msgid "Select the hook to end with or enter a custom one."
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:97
+msgid "Custom End Hook"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:107
+msgid "Classic Checkout Hook Settings"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:109
+msgid "For the Classic Checkout page. Below is a description of the available PHP hooks."
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:113
+msgid "Start Hooks Information"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:115
+msgid "The <code>woocommerce_checkout_process</code> hook is an action that fires during the checkout process, specifically when the form is being submitted but before the order is created and payment is processed.<br>"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:119
+msgid "End Hooks Information"
+msgstr ""
+
+#: controllers/CheckoutProfilerSettings.php:121
+msgid "<code>woocommerce_new_order</code>: This action hook fires when a new order is created in WooCommerce.<br>It happens just after the order is inserted into the database, but before the order data is saved.<br><br><code>woocommerce_thankyou</code>: This action hook is executed when the thank you page is displayed after an order is completed.<br>It is triggered after the payment has been processed and the order is marked as complete.<br><br><code>woocommerce_checkout_order_processed</code>: This action hook fires after the checkout process is completed and the order is processed, but before the order is transitioned to its final status (e.g., 'processing' or 'completed').<br>"
+msgstr ""
